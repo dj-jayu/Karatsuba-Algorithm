@@ -1,6 +1,8 @@
 
 # count the number of digits in a number
 def count_dig(n):
+    if n == 0:
+        return 1
     dig = 0
     while n != 0:
         n = n // 10
